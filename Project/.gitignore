@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+e2e/screenshots
+# ฐานข้อมูลตอนใช้งาน (สร้างจาก server/db.seed.json อัตโนมัติ)
+server/db.json

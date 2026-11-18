@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "manager",
+      "name": "คุณสมชาย (ผู้จัดการ)",
+      "role": "manager",
+      "salt": "823277e537be722531b3417185f3fb68",
+      "passwordHash": "bac7b08f1696fa19b6c520476fc3a0084bcb293636cac0c94b051f74a7e61ab7154f99375c3aa9c7250421ff8dabbc055eece15329a07fa25d36b646105b8520"
+    },
+    {
+      "id": 2,
+      "username": "staff",
+      "name": "น้องมะลิ (พนักงาน)",
+      "role": "staff",
+      "salt": "7320e961bc8278d995a44b03ca76dc43",
+      "passwordHash": "76710ee26a502c3adb4f8718e849310b171f40ff4a644be67b8435b6a044a5d0b14767b7b86623ef70633c8214df5e377475dfaa411b86a3baa9434baa52a5ff"
+    }
+  ],
+  "categories": [
+    {
+      "id": "meat",
+      "name": "เนื้อสัตว์"
+    },
+    {
+      "id": "seafood",
+      "name": "ทะเล"
+    },
+    {
+      "id": "balls",
+      "name": "ลูกชิ้น"
+    },
+    {
+      "id": "veg",
+      "name": "ผัก"
+    },
+    {
+      "id": "noodle",
+      "name": "เส้น"
+    },
+    {
+      "id": "drink",
+      "name": "เครื่องดื่ม"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "หมูสไลซ์",
+      "categoryId": "meat",
+      "price": 79,
+      "description": "หมูสันคอสไลซ์บาง นุ่มละลายในปาก",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "เนื้อวัวสไลซ์",
+      "categoryId": "meat",
+      "price": 129,
+      "description": "เนื้อวัวลายสวย สไลซ์บาง",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "หมูหมัก",
+      "categoryId": "meat",
+      "price": 69,
+      "description": "หมูหมักซอสสูตรร้าน",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "ไก่สไลซ์",
+      "categoryId": "meat",
+      "price": 59,
+      "description": "อกไก่นุ่ม หมักงา",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "กุ้งสด",
+      "categoryId": "seafood",
+      "price": 119,
+      "description": "กุ้งขาวสด 6 ตัว",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "ปลาหมึก",
+      "categoryId": "seafood",
+      "price": 89,
+      "description": "ปลาหมึกกล้วยหั่นแว่น",
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "หอยแมลงภู่",
+      "categoryId": "seafood",
+      "price": 79,
+      "description": "หอยสดล้างสะอาด",
+      "available": false
+    },
+    {
+      "id": 8,
+      "name": "ลูกชิ้นปลา",
+      "categoryId": "balls",
+      "price": 39,
+      "description": "ลูกชิ้นปลาเด้ง 8 ลูก",
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "ลูกชิ้นกุ้ง",
+      "categoryId": "balls",
+      "price": 49,
+      "description": "เนื้อกุ้งแน่น ๆ 6 ลูก",
+      "available": true
+    },
+    {
+      "id": 10,
+      "name": "เต้าหู้ปลา",
+      "categoryId": "balls",
+      "price": 39,
+      "description": "เต้าหู้ปลาทอด",
+      "available": true
+    },
+    {
+      "id": 11,
+      "name": "ผักรวม",
+      "categoryId": "veg",
+      "price": 49,
+      "description": "ผักกาดขาว ผักบุ้ง ตั้งโอ๋ ข้าวโพด",
+      "available": true
+    },
+    {
+      "id": 12,
+      "name": "เห็ดรวม",
+      "categoryId": "veg",
+      "price": 45,
+      "description": "เห็ดเข็มทอง เห็ดหอม เห็ดออรินจิ",
+      "available": true
+    },
+    {
+      "id": 13,
+      "name": "ข้าวโพดอ่อน",
+      "categoryId": "veg",
+      "price": 29,
+      "description": "ข้าวโพดหวาน",
+      "available": true
+    },
+    {
+      "id": 14,
+      "name": "วุ้นเส้น",
+      "categoryId": "noodle",
+      "price": 25,
+      "description": "วุ้นเส้นเหนียวนุ่ม",
+      "available": true
+    },
+    {
+      "id": 15,
+      "name": "บะหมี่หยก",
+      "categoryId": "noodle",
+      "price": 30,
+      "description": "บะหมี่ผักโขม",
+      "available": true
+    },
+    {
+      "id": 16,
+      "name": "มาม่า",
+      "categoryId": "noodle",
+      "price": 20,
+      "description": "บะหมี่กึ่งสำเร็จรูป",
+      "available": true
+    },
+    {
+      "id": 17,
+      "name": "น้ำเปล่า",
+      "categoryId": "drink",
+      "price": 15,
+      "description": "ขวด 600 มล.",
+      "available": true
+    },
+    {
+      "id": 18,
+      "name": "ชาเย็น",
+      "categoryId": "drink",
+      "price": 45,
+      "description": "ชาไทยสูตรเข้มข้น",
+      "available": true
+    },
+    {
+      "id": 19,
+      "name": "โค้ก",
+      "categoryId": "drink",
+      "price": 25,
+      "description": "กระป๋อง 325 มล.",
+      "available": true
+    },
+    {
+      "id": 20,
+      "name": "น้ำแข็ง",
+      "categoryId": "drink",
+      "price": 10,
+      "description": "ถังเล็ก",
+      "available": true
+    }
+  ],
+  "tables": [
+    {
+      "id": "A01",
+      "seats": 4
+    },
+    {
+      "id": "A02",
+      "seats": 4
+    },
+    {
+      "id": "A03",
+      "seats": 2
+    },
+    {
+      "id": "A04",
+      "seats": 6
+    },
+    {
+      "id": "A05",
+      "seats": 4
+    },
+    {
+      "id": "B01",
+      "seats": 8
+    }
+  ],
+  "orders": [],
+  "requests": [],
+  "bills": []
+}
